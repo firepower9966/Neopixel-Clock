@@ -58,7 +58,6 @@ CRGB colorSecond_night = CRGB(0,0,10);
 CRGB colorMarks5_night = CRGB(3,0,3);
 CRGB colorMarks15_night = CRGB(6,0,6);
 
-//CRGB LEDs[NUM_LEDS];
 CRGBArray<NUM_LEDS>LEDs;
  
 ESP8266WiFiMulti wifiMulti;                     
@@ -278,23 +277,6 @@ void startWiFi() {
           lcd.print(".");
           }
         }
-/*
-     //neopixel startup test   
-      if (i <60)
-      LEDs[i] = CRGB((i-49),0,(i-49));    //purple
-      if (i <50)
-      LEDs[i] = CRGB(0,(i-39),(i-39));    //cyan
-      if (i <40)
-      LEDs[i] = CRGB((i-29),(i-29),0);    //yellow
-      if (i <30)
-      LEDs[i] = CRGB(0,0,(i-19));         //blue
-      if (i <20)
-      LEDs[i] = CRGB(0,(i-9),0);          //Green 
-      if (i <10)                                    
-      LEDs[i] = CRGB((i+1),0,0);          //red 
- 
-      FastLED.show();
-     */    
      }
     }
   Serial.println(); 
@@ -416,7 +398,7 @@ char lcd2[16];  //Buffer to show LCD Line 2
 #endif  
 }
 
-/*
+/* 
 boolean summerTime() {
 
   if (currentDateTime.month < 3 || currentDateTime.month > 10) return false;  // No summer time in Jan, Feb, Nov, Dec
