@@ -1,3 +1,10 @@
+  /* My version of Neopixel clock by Firepower9966 july 2020
+		based on code by Leon van den Beukel, march 2019
+ */
+  
+  
+  
+  
   /*
   WiFi connected round LED Clock. It gets NTP time from the internet and translates to a 60 RGB WS2812B LED strip.
 
@@ -20,7 +27,7 @@
 #include <LiquidCrystal_PCF8574.h>
 #define DEBUG_ON
 
-const char Version[] = "LCD CLOCK V1.06";
+const char Version[] = "LCD CLOCK V1.07";
 char *weekday[] = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
 const char ssid[] = "Wifi Network Name";       // Your network SSID name here
 const char pass[] = "Wifi Network Password";   // Your network password here
