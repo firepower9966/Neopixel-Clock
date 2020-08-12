@@ -1,6 +1,7 @@
-/* My version of Neopixel clock by Firepower9966 july 2020
+/* My version of Neopixel clock by Firepower9966 july 2020  https://github.com/firepower9966/Neopixel-Clock
    based on code by Leon van den Beukel, march 2019
-
+   I have added incremental hour indication, blink hour and minute if same neopixel, brightness control using LDR for dim LED in low light,
+   added text output for 2004 LCD, rainbow effect test pattern while connecting to wifi.
 */
 
 
